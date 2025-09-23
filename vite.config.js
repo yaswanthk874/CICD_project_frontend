@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/CICD_HOSPITAL_MANEGEMENT_SYSTEM",
+  base: "/hms",
 });
 
