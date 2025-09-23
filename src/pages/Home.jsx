@@ -1,10 +1,10 @@
 import * as React from "react";
 // import Header from "./home/Header";
 // import Navbar from "./home/Navbar";
-import MainVisual from "./home/MainVisual";
-import InfoSection from "./home/InfoSection";
-import AboutSection from "./home/AboutSection";
-import ServicesSection from "./home/ServicesSection";
+import MainVisual from "./HOME/MainVisual";
+import InfoSection from "./HOME/InfoSection";
+import AboutSection from "./HOME/AboutSection";
+import ServicesSection from "./HOME/ServicesSection";
 
 import DoctorsSection from "./home/DoctorsSection";
 /* import NewsSection from "./NewsSection"; */
