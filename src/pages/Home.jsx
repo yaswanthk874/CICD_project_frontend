@@ -1,15 +1,13 @@
 import * as React from "react";
-// All imports are correctly pointing to the files in the same directory.
-// If you are still seeing "Could not resolve" errors, please verify the
-// capitalization of your component filenames. Linux environments, like the
-// one in Docker, are case-sensitive. For example, "mainvisual.jsx" and
-// "MainVisual.jsx" are treated as different files.
-import MainVisual from "./MainVisual.jsx";
-import InfoSection from "./InfoSection.jsx";
-import AboutSection from "./AboutSection.jsx";
-import ServicesSection from "./ServicesSection.jsx";
-import DoctorsSection from "./DoctorsSection.jsx";
-import Footer from "./Footer.jsx";
+// All imports now correctly point into the HOME subdirectory.
+// Please ensure your local file and folder names match the
+// capitalization exactly, as the Docker build environment is case-sensitive.
+import MainVisual from "./HOME/MainVisual.jsx";
+import InfoSection from "./HOME/InfoSection.jsx";
+import AboutSection from "./HOME/AboutSection.jsx";
+import ServicesSection from "./HOME/ServicesSection.jsx";
+import DoctorsSection from "./HOME/DoctorsSection.jsx";
+import Footer from "./HOME/Footer.jsx";
 
 function Home() {
   return (
