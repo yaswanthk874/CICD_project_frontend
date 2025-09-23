@@ -1,14 +1,15 @@
 import * as React from "react";
-// import Header from "./home/Header";
-// import Navbar from "./home/Navbar";
-import MainVisual from "./HOME/MainVisual";
-import InfoSection from "./HOME/InfoSection";
-import AboutSection from "./HOME/AboutSection";
-import ServicesSection from "./HOME/ServicesSection";
-
-import DoctorsSection from "./home/DoctorsSection";
-/* import NewsSection from "./NewsSection"; */
-import Footer from "./home/Footer";
+// All imports are correctly pointing to the files in the same directory.
+// If you are still seeing "Could not resolve" errors, please verify the
+// capitalization of your component filenames. Linux environments, like the
+// one in Docker, are case-sensitive. For example, "mainvisual.jsx" and
+// "MainVisual.jsx" are treated as different files.
+import MainVisual from "./MainVisual.jsx";
+import InfoSection from "./InfoSection.jsx";
+import AboutSection from "./AboutSection.jsx";
+import ServicesSection from "./ServicesSection.jsx";
+import DoctorsSection from "./DoctorsSection.jsx";
+import Footer from "./Footer.jsx";
 
 function Home() {
   return (
