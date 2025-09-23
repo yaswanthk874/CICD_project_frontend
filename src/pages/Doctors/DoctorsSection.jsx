@@ -27,7 +27,7 @@ const DoctorsSection = () => {
             specialty="Dr.Raghu Ram"
           />
           <DoctorCard
-            image="https://cdn.builder.io/api/v1/image/assets/cf44c0ce78c240a28faac630188f1a27/a522fa64e597948571da6be9d7aa71799120ac0d854c96100591c0b953bf2ed1?placeholderIfAbsent=true"
+            image="https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX12657449.jpg"
             name="Doctor's Name"
             specialty="Ramya Devi"
           />

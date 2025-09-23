@@ -1,20 +1,20 @@
 /* General Styles */
 .homepage {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #222;
-  line-height: 1.6;
-  background: #f4f9f9;
+  font-family: "Poppins", sans-serif;
+  color: #1a1a1a;
+  line-height: 1.7;
+  background: #ffffff;
 }
 
 /* Header */
 .homepage-header {
-  background: linear-gradient(rgba(0, 109, 119, 0.7), rgba(131, 56, 236, 0.7)),
-    url("../assets/images/hospital.jpg") center/cover no-repeat;
-  height: 70vh;
+  background: linear-gradient(135deg, #d4fc79, #96e6a1);
+  height: 75vh;
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 10%;
 }
 
 .header-overlay {
@@ -22,67 +22,71 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .header-content {
-  text-align: center;
-  color: white;
-  max-width: 700px;
+  text-align: left;
+  color: #004d40;
+  max-width: 600px;
   padding: 20px;
+  animation: fadeIn 1.2s ease-in-out;
 }
 
 .header-content h1 {
-  font-size: 3rem;
-  margin-bottom: 15px;
-  font-weight: bold;
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: #222;
 }
 
 .header-content p {
-  font-size: 1.2rem;
-  margin-bottom: 25px;
-  opacity: 0.9;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #333;
+  opacity: 0.95;
 }
 
 .cta-button {
-  padding: 12px 28px;
+  padding: 14px 34px;
   font-size: 1rem;
   border: none;
-  background: #ffb703;
-  color: #222;
-  border-radius: 6px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  border-radius: 50px;
   cursor: pointer;
   font-weight: 600;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 114, 255, 0.3);
 }
 
 .cta-button:hover {
-  background: #ffa500;
-  transform: translateY(-2px);
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+  transform: translateY(-4px) scale(1.05);
 }
 
 /* Main */
 .homepage-main {
-  padding: 60px 10%;
+  padding: 70px 8%;
+  background: #f8fdfb;
 }
 
 /* Image Section */
 .image-section {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 
 .homepage-image {
   width: 100%;
-  max-width: 900px;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
-  transition: 0.3s;
+  max-width: 950px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  transition: transform 0.4s ease;
 }
 
 .homepage-image:hover {
-  transform: scale(1.02);
+  transform: scale(1.05) rotate(-1deg);
 }
 
 /* Features */
@@ -91,39 +95,63 @@
 }
 
 .features h2 {
-  font-size: 2.2rem;
-  margin-bottom: 40px;
-  font-weight: bold;
-  color: #006d77;
+  font-size: 2.4rem;
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: #009688;
+  position: relative;
+}
+
+.features h2::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #009688;
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 2px;
 }
 
 .feature-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
 }
 
 .feature-card {
-  background: white;
-  padding: 25px;
-  border-radius: 12px;
-  border-left: 6px solid #8338ec;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 16px;
+  border-top: 6px solid #009688;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
 .feature-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .feature-card h3 {
-  font-size: 1.4rem;
-  margin-bottom: 12px;
-  color: #8338ec;
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  color: #00695c;
 }
 
 .feature-card p {
   font-size: 1rem;
   color: #444;
+  line-height: 1.6;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -7,7 +7,7 @@ const ContactSection = () => {
         <div className="contact-cards">
           <article className="contact-card emergency">
             <h3 className="card-title">Emergency</h3>
-            <p className="card-text">0866-2536535</p>
+            <p className="card-text">0800-555-0123 / 0800-555-0456</p>
             
           </article>
           <article className="contact-card location">
@@ -17,7 +17,7 @@ const ContactSection = () => {
           </article>
           <article className="contact-card email">
             <h3 className="card-title">Email</h3>
-            <p className="card-text">HospitalManagement System@gmail.com</p>
+            <p className="card-text">contact@medicureexcellence.com</p>
            
           </article>
           <article className="contact-card hours">
@@ -33,7 +33,7 @@ const ContactSection = () => {
           align-items: center;
         }
         .contact-section .contact-subtitle {
-          color: #159eec;
+          color: #101213ff;
           text-align: center;
           font-family: Work Sans, sans-serif;
           font-size: 18px;
@@ -43,7 +43,7 @@ const ContactSection = () => {
           margin: 80px 0 0;
         }
         .contact-section .contact-title {
-          color: #1f2b6c;
+          color: #202129ff;
           text-align: center;
           font-family: Yeseva One, serif;
           font-size: 32px;
@@ -84,19 +84,19 @@ const ContactSection = () => {
           margin-top: 5px;
         }
         .contact-section  .emergency {
-          background: #bfd2f8;
+          background: #292a2dff;
           color: #1f2b6c;
         }
         .contact-section  .location {
-          background: #1f2b6c;
+          background: #070708ff;
           color: #bfd2f8;
         }
         .contact-section  .email {
-          background: #bfd2f8;
+          background: #121314ff;
           color: #1f2b6c;
         }
         .contact-section  .hours {
-          background: #bfd2f8;
+          background: #050606ff;
           color: #1f2b6c;
         }
         @media (max-width: 991px) {

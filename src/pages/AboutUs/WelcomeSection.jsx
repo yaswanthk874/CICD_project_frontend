@@ -5,33 +5,33 @@ export function WelcomeSection() {
         <div className="image-column">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/cf44c0ce78c240a28faac630188f1a27/52c5863cdebcae30bf9eb07c4cd346b139d2e5d6f7af4449bcb6e15670051a3b?placeholderIfAbsent=true"
+            src="https://thumbs.dreamstime.com/b/smiling-colleagues-doctors-looking-camera-portrait-two-arms-crossed-56483805.jpg"
             className="welcome-image"
           />
         </div>
         <div className="text-column">
-          <h3 className="subtitle">Welcome to Hospital name</h3>
+          <h3 className="subtitle">Welcome to Medicure Hospital</h3>
           <h1 className="title">
-            Best Care for Your
+            Best Care possible
             <br />
-            Good Health
+            Health is welath
           </h1>
 
           <div className="features-grid">
             <div className="features-column">
-              <FeatureItem text="A Passion for Healing" />
-              <FeatureItem text="All our best" />
-              <FeatureItem text="Always Caring" />
+              <FeatureItem text="A Passion for treating" />
+              <FeatureItem text="Best Doctors" />
+              <FeatureItem text="Affordable Medicine" />
             </div>
             <div className="features-column">
-              <FeatureItem text="5-Star Care" />
-              <FeatureItem text="Believe in Us" />
-              <FeatureItem text="A Legacy of Excellence" />
+              <FeatureItem text="7-Star Care" />
+              <FeatureItem text="Succesfully operating since 1997" />
+              <FeatureItem text="A Legacy of reputation" />
             </div>
           </div>
 
           <p className="description">
-          "Life is full of challenges, yet with determination we can overcome them. Success comes from consistent effort and the courage to move forward. Growth happens when we learn from experience and embrace opportunities. Strength is built when we face difficulties with confidence and positivity."
+          "Life presents many obstacles, but through unwavering determination, we can conquer them. Success is the result of persistent effort and the bravery to keep advancing. True growth emerges when we gain wisdom from our experiences and welcome new opportunities. True strength is forged by facing challenges with confidence and a positive spirit."
           </p>
           
         </div>

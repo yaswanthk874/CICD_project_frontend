@@ -112,7 +112,7 @@ export function Footer() {
         }
 
         .footer-logo {
-          color: #bfd2f8;
+          color: #191a1dff;
           font-family: Yeseva One, -apple-system, Roboto, Helvetica, sans-serif;
           font-size: 36px;
           text-transform: uppercase;

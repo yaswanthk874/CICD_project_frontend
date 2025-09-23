@@ -59,29 +59,29 @@ function ContactCard({ type, title, items }) {
         .contact-card {
           flex: 1;
           border-radius: 5px;
-          background: #bfd2f8;
-          color:rgb(0, 20, 59);
+          background: #101114ff;
+          color:rgba(56, 239, 218, 1);
           padding: 105px 30px 50px;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
         }
         .location {
-          background: #bfd2f8;
+          background: #101112ff;
         }
         .card-title {
           font-family: Work Sans, sans-serif;
           font-size: 18px;
           font-weight: 700;
           text-transform: uppercase;
-          color: ${isLocation ? "#bfd2f8" : "#1f2b6c"};
+          color: ${isLocation ? "#bfd2f8" : "#d6d7dfff"};
         }
         .card-text {
           font-family: Work Sans, sans-serif;
           font-size: 16px;
           font-weight: 400;
           line-height: 1.4;
-          color: ${isLocation ? "#bfd2f8" : "#1f2b6c"};
+          color: ${isLocation ? "#bfd2f8" : "#d5d7e2ff"};
         }
         @media (max-width: 991px) {
           .contact-card {

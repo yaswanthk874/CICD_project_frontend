@@ -16,19 +16,19 @@ function DoctorsSection() {
     // },
     {
       imageSrc:
-        "https://cdn.builder.io/api/v1/image/assets/471bd1fc3ea94fc0a67c95e5f4cf0712/b33f71bdf398572dcf1c09532216e3bec0185ae7b3910aa1832572354bbecb53?apiKey=471bd1fc3ea94fc0a67c95e5f4cf0712&",
+        "https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX12657449.jpg",
       doctorName: "Dr. Ramya Devi",
       specialty: "Neurology",
     },
     {
       imageSrc:
-        "https://cdn.builder.io/api/v1/image/assets/471bd1fc3ea94fc0a67c95e5f4cf0712/04394c99a0d2e91e70a2df69c6d55dec5338591624bb7ed680e3325adea6c026?apiKey=471bd1fc3ea94fc0a67c95e5f4cf0712&",
+        "https://img.freepik.com/premium-photo/portrait-male-medical-doctor-around-40-years-old_1000823-15807.jpg",
       doctorName: "Dr. Gopal kumar",
       specialty: "Cardiology",
     },
     {
       imageSrc:
-        "https://cdn.builder.io/api/v1/image/assets/471bd1fc3ea94fc0a67c95e5f4cf0712/a2babe5b78d3fcc814ecc3ed30c9cac800dfa2e6fd79dd1be8d530d26a4da2cf?apiKey=471bd1fc3ea94fc0a67c95e5f4cf0712&",
+        "https://cdn.pixabay.com/photo/2023/12/21/06/23/doctor-8461303_640.jpg",
       doctorName: "Dr. Raghu Ram",
       specialty: "Psychology",
     },
@@ -49,7 +49,7 @@ function DoctorsSection() {
     margin-top: 60px;
     text-align: center;
     padding: 40px 20px;
-    background: var(--Primary, #1f2b6c);
+    background: var(--Primary, #0d0d0eff);
     color: var(--white, #fcfefe);
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@ function DoctorsSection() {
   }
 
   .section-title {
-    color: var(--Secondary, #159eec);
+    color: var(--Secondary, #070808ff);
     letter-spacing: 2.88px;
     text-transform: uppercase;
     font: 700 18px Work Sans, sans-serif;

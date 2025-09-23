@@ -8,9 +8,9 @@ body, html {
   color: #333;
 }
 
-/* Header Section */
+/* Header Section */  
 header {
-  background-color: #1f2b6c; /* Blue background */
+  background-color: #181919; /* Blue background */
   padding: 1rem 2rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   position: sticky;

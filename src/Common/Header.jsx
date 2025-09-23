@@ -33,7 +33,7 @@ const Header = () => {
     <header className="header">
       <nav className="navbar">
         <div className="logo">
-          <Link to="/">KL Hospital Management</Link>
+          <Link to="/">Medicure Hospital</Link>
         </div>
         <ul className="nav-links">
           {/* Show Home and About only if the user is not an admin */}

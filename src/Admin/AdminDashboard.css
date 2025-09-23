@@ -20,7 +20,7 @@ body {
 /* Titles */
 .dashboard-title {
   text-align: center;
-  color: #3b82f6; /* Blue Color */
+  color: #070808; /* Blue Color */
   margin-bottom: 10px;
   font-size: 2.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -44,7 +44,7 @@ body {
 .action-btn {
   padding: 12px 25px;
   font-size: 18px;
-  background-color: #3b82f6; /* Blue Color */
+  background-color: #141516; /* Blue Color */
   color: white;
   border: none;
   border-radius: 5px;

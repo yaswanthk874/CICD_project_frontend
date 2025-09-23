@@ -36,7 +36,7 @@
 
 /* Book button styling */
 .book-button {
-  background-color: #3b82f6; /* Blue color */
+  background-color: #151617; /* Blue color */
   color: white;
   border: none;
   padding: 5px 10px;
@@ -57,7 +57,7 @@
   margin-bottom: 10px;
 }
 .book-appointment-container h2{
-  color:#3b82f6
+  color:#0b0c0c
 }
 
 /* Selected appointment details */

@@ -6,19 +6,19 @@ function InfoSection() {
     <>
       <section className="info-section">
         <InfoCard
-          title="Book an Appointment"
-          line1="Commit to quality, nurture growth, and lead with purpose."
-          line2="Progress with focus and dedication."
+          title="Appointment booking"
+          line1="Great leaders don’t set out to be a leader. They set out to make a difference. It is never about the role always about the goal."
+          line2="Choose slot now."
         />
         <InfoCard
-          title="Emergency Service"
-          line1="Always ready to handle medical emergencies efficiently."
+          title="Emergency Services"
+          line1="Next to creating a life, the finest thing a man can do is save one."
           line2="Turning challenges into opportunities with care and precision."
         />
         <InfoCard
           title="24/7 Support"
-          line1="Available 24/7 to provide reliable care and ensure your safety."
-          line2="Step forward with confidence and support."
+          line1="Available 24/7 to provide reliable care for our patients ensure your safety."
+          line2="Step forward with confidence."
         />
       </section>
       <style jsx>{`

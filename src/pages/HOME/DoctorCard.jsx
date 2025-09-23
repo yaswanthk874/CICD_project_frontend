@@ -30,7 +30,7 @@ function DoctorCard({ imageSrc, doctorName, specialty }) {
             /> */}
           </div>
         </div>
-        <div className="view-profile-btn">View Profile</div>
+        
       </div>
       <style jsx>{`
         .doctor-card {
@@ -50,17 +50,17 @@ function DoctorCard({ imageSrc, doctorName, specialty }) {
           object-fit: cover;
         }
         .doctor-content {
-          background: var(--Accent, #bfd2f8);
+          background: var(--Accent, #101112ff); 
           padding: 24px 32px;
           width: 100%;
         }
         .doctor-name {
-          color: var(--Primary, #1f2b6c);
+          color: var(--Primary, #f0f1f7ff);
           font: 400 18px/1.4 Work Sans, -apple-system, Roboto, Helvetica,
             sans-serif;
         }
         .doctor-specialty {
-          color: var(--Primary, #1f2b6c);
+          color: var(--Primary, #e0e2ebff);
           letter-spacing: 2.88px;
           text-transform: uppercase;
           font: 700 18px Work Sans, sans-serif;
@@ -77,7 +77,7 @@ function DoctorCard({ imageSrc, doctorName, specialty }) {
           aspect-ratio: 1;
         }
         .view-profile-btn {
-          background: var(--Primary, #1f2b6c);
+          background: var(--Primary, #0f0f10ff);
           color: var(--Accent, #bfd2f8);
           padding: 12px 32px;
           width: 100%;

@@ -6,15 +6,15 @@ function MainVisual() {
       <div className="main-visual">
         <img
           //https://cdn.builder.io/api/v1/image/assets/471bd1fc3ea94fc0a67c95e5f4cf0712/26605c234810518056a0ba344fbfc8cd58e57a6a36b94b219747c8ac54db69c4?apiKey=471bd1fc3ea94fc0a67c95e5f4cf0712&
-          src="https://cdn.builder.io/api/v1/image/assets/471bd1fc3ea94fc0a67c95e5f4cf0712/26605c234810518056a0ba344fbfc8cd58e57a6a36b94b219747c8ac54db69c4?apiKey=471bd1fc3ea94fc0a67c95e5f4cf0712"
+          src="https://wallpaperaccess.com/full/4952588.jpg"
           alt="Hospital Exterior"
           className="main-image"
         />
         <br/>
         <div className="visual-content">
-          <h1 className="visual-title">Caring for Life</h1>
+          <h1 className="visual-title">Caring for You</h1>
           <h2 className="visual-subtitle">
-            Leading the Way in Medical Excellence
+            A higher level of care.
           </h2>
         
         </div>
@@ -58,7 +58,7 @@ function MainVisual() {
           }
         }
         .visual-title {
-          color: var(--Secondary, #159eec);
+          color: var(--Secondary, #0f1112ff);
           font-size: 18px;
           font-weight: 700;
           text-transform: uppercase;

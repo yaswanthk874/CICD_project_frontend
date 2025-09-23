@@ -48,7 +48,7 @@ export function ContactSection() {
         }
 
         .section-title {
-          color: #1f2b6c;
+          color: #101117ff;
           font-family: Yeseva One, -apple-system, Roboto, Helvetica, sans-serif;
           font-size: 32px;
           font-weight: 400;
@@ -66,7 +66,7 @@ export function ContactSection() {
           border-radius: 5px;
           padding: 105px 30px 50px;
           font-family: Work Sans, -apple-system, Roboto, Helvetica, sans-serif;
-          background: #bfd2f8;
+          background: #151618ff;
         }
 
         .contact-card.location {

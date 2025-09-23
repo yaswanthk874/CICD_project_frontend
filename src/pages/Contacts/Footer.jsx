@@ -58,7 +58,7 @@ export const Footer = () => {
 
         <div className="footer-bottom">
           <p className="copyright">
-          © 2025 [ KL Hospital Management ]. All Rights Reserved. Powered by MedTech Solutions.
+          © 2025 [ Medicure Hospital ]. All Rights Reserved. Powered by MedTech Solutions.
           </p>
           <div className="social-links">
             <img

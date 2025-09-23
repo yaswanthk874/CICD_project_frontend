@@ -7,10 +7,10 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              Med<span className="highlight">ical</span>
+              Medi<span className="highlight">cure</span>
             </div>
             <p className="footer-description">
-            "Compassionate Care, Advanced Medicine, Healthier Lives."
+            "Empathy in Service, Excellence in Medicine, Wellness for All.  "
             </p>
           </div>
           <div className="footer-section">
@@ -39,9 +39,9 @@ function Footer() {
             </ul>
           </div>
           <div className="footer-section">
-            <h4 className="footer-title">Contact Us</h4>
-            <p className="footer-contact">Call: 0866-2536535 / 0866-252536</p>
-            <p className="footer-contact">Email:KLU@hospitalmanagement.com</p>
+            <h4 className="footer-title">Contact Information</h4>
+            <p className="footer-contact">Call: 0800-555-0123 / 0800-555-0456</p>
+            <p className="footer-contact">Email:contact@medicureexcellence.com</p>
             <p className="footer-contact">
               Address: Vaddeswaram, Andhra Pradesh, 
             </p>
@@ -70,7 +70,7 @@ function Footer() {
         </div>
         <div className="footer-bottom">
           <p className="footer-copy">
-          © 2025 [ KL Hospital Management ]. All Rights Reserved. Powered by MedTech Solutions.
+          © 2025 [ Medicure Hospital ]. All Rights Reserved. Powered by MedTech Solutions.
           </p>
           <div className="footer-social">
             {/* <img
@@ -98,7 +98,7 @@ function Footer() {
       </footer>
       <style jsx>{`
         .footer {
-          background: var(--Primary, #1f2b6c);
+          background: var(--Primary, #24252aff);
           color: var(--white, #fcfefe);
           padding: 72px 80px;
           display: flex;

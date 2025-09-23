@@ -21,7 +21,7 @@ body, html {
 .user-profile-container h2 {
   text-align: center;
   font-size: 2.5rem;
-  color: #3b82f6; /* Blue color for header */
+  color: #151618; /* Blue color for header */
   margin-bottom: 20px;
 }
 
@@ -55,7 +55,7 @@ body, html {
 
 .username-display {
   font-size: 1.5rem;
-  color: #3b82f6; /* Blue color for username */
+  color: #0c0c0d; /* Blue color for username */
 }
 
 /* User Details */

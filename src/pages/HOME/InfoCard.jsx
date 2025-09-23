@@ -10,7 +10,7 @@ function InfoCard({ title, line1, line2 }) {
        </button>
       <style jsx>{`
         .info-card {
-          background: var(--Primary, #1f2b6c);
+          background: var(--Primary, #040404ff);
           color: var(--white, #fcfefe);
           padding: 39px 20px;
           border-radius: 5px;
@@ -21,7 +21,7 @@ function InfoCard({ title, line1, line2 }) {
           font-size: 18px;
           font-weight: 700;
           text-transform: uppercase;
-          color: var(--Accent, #bfd2f8);
+          color: var(--Accent, #e2e6eeff);
         }
         .info-line {
           margin-top: 8px;

@@ -82,8 +82,8 @@ export const ContactForm = () => {
         .submit-button {
           width: 100%;
           padding: 16px;
-          background: #bfd2f8;
-          color: #1f2b6c;
+          background: #0c0c0dff;
+          color: #000000ff;
           font-weight: 500;
           text-transform: uppercase;
           border: none;

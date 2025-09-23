@@ -4,10 +4,10 @@ function AboutSection() {
   return (
     <>
       <section className="about-section">
-        <h2 className="section-title">Welcome to Medical</h2>
+        <h2 className="section-title">Welcome to Medicure</h2>
         <h3 className="section-subtitle">A Great Place to Receive Care</h3>
         <p className="section-paragraph">
-        This is sample text that looks like natural writing, showing style and layout. Every challenge or obstacle can still be arranged or shaped in a good way. Connections and relationships can help us grow even in difficult times. New beginnings or opportunities often come from struggles, and true success or results come with support, guidance, and effort.
+        Medicare Hospital is dedicated to providing high-quality, patient-focused healthcare with advanced medical expertise. Established in 2001, the hospital combines compassionate care with cutting-edge technology to serve the community effectively. The hospital’s mission is to enhance health and well-being by delivering top-tier medical services at affordable costs. With a strong emphasis on continuous improvement, education, and collaboration, Medicare Hospital strives to exceed patient and family expectations while upholding values of compassion, excellence, and integrity.
         </p>
         <div className="learn-more">
           <a href="#" className="learn-more-link">
@@ -20,7 +20,7 @@ function AboutSection() {
           />
         </div>
         <img
-          src="https://cdn.builder.io/api/v1/image/assets/471bd1fc3ea94fc0a67c95e5f4cf0712/eec58fa65510b984144aee056e0236ed2c878e609a6f82090a6a7c5197f04b2e?apiKey=471bd1fc3ea94fc0a67c95e5f4cf0712&"
+          src="https://png.pngtree.com/background/20230520/original/pngtree-group-of-doctors-pose-together-to-show-their-profession-picture-image_2673163.jpg"
           alt="Hospital Interior"
           className="about-image"
         />
@@ -40,7 +40,7 @@ function AboutSection() {
           }
         }
         .section-title {
-          color: var(--Secondary, #159eec);
+          color: var(--Secondary, #0f1010ff);
           letter-spacing: 2.88px;
           text-transform: uppercase;
           font: 700 18px Work Sans, sans-serif;
@@ -52,7 +52,7 @@ function AboutSection() {
           }
         }
         .section-subtitle {
-          color: var(--Primary, #1f2b6c);
+          color: var(--Primary, #111216ff);
           font: 400 32px Yeseva One, -apple-system, Roboto, Helvetica,
             sans-serif;
           margin-top: 8px;
@@ -73,7 +73,7 @@ function AboutSection() {
           display: flex;
           align-items: center;
           gap: 10px;
-          color: var(--Secondary, #159eec);
+          color: var(--Secondary, #111313ff);
           margin-top: 32px;
           font: 400 16px/1.4 Work Sans, -apple-system, Roboto, Helvetica,
             sans-serif;
@@ -87,7 +87,7 @@ function AboutSection() {
           width: 11px;
         }
         .about-image {
-          aspect-ratio: 3.97;
+          aspect-ratio: 2.1;
           width: 100%;
           margin-top: 61px;
         }

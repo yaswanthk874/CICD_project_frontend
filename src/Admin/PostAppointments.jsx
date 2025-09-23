@@ -82,7 +82,7 @@ const PostAppointments = () => {
 
   return (
     <div style={{ padding: '20px', maxWidth: '600px', margin: '0 auto', fontFamily: 'Arial, sans-serif' }}>
-      <h1 style={{ textAlign: 'center', color: '#007bff' }}>Post Appointment</h1>
+      <h1 style={{ textAlign: 'center', color: '#131415ff' }}>Post Appointment</h1>
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
         {/* Hospital Name */}
         <div>
@@ -222,7 +222,7 @@ const PostAppointments = () => {
         <button
           type="submit"
           style={{
-            backgroundColor: '#007bff',
+            backgroundColor: '#090a0aff',
             color: 'white',
             padding: '10px 15px',
             border: 'none',

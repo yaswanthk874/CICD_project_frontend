@@ -22,7 +22,7 @@ const ViewAppointments = () => {
 
   return (
     <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto', fontFamily: 'Arial, sans-serif' }}>
-      <h2 style={{ textAlign: 'center', color: '#007bff' }}>View Appointments</h2>
+      <h2 style={{ textAlign: 'center', color: '#101112ff' }}>View Appointments</h2>
       {appointments.length === 0 ? (
         <p style={{ textAlign: 'center', color: '#555' }}>No appointments available.</p>
       ) : (

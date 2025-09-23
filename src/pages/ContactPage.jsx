@@ -31,9 +31,9 @@ const ContactPage = () => {
         <div className="contact-info">
           <h2>Our Contact Details</h2>
           <p><strong>Address:</strong> Vaddeswaram, AndhraPradesh</p>
-          <p><strong>Phone:</strong> 108</p>
-          <p><strong>Email:</strong> KLU@hospitalmanagement.com</p>
-          <p><strong>Working Hours:</strong> 24/7 availableon Sunday Emergency only</p>
+          <p><strong>Phone:</strong> 0866-252536 / 0866-252535 </p>
+          <p><strong>Email:</strong> contact@medicureexcellence.com</p>
+          <p><strong>Working Hours:</strong> 24/7 available on Sunday Emergency only</p>
         </div>
 
         {/* Contact Form */}
