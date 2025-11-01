@@ -1,13 +1,13 @@
-+import * as React from "react";
+import * as React from "react";
 // All imports now correctly point into the HOME subdirectory.
 // Please ensure your local file and folder names match the
 // capitalization exactly, as the Docker build environment is case-sensitive.
-import MainVisual from "./HOME1/MainVisual.jsx";
-import InfoSection from "./HOME1/InfoSection.jsx";
-import AboutSection from "./HOME1/AboutSection.jsx";
-import ServicesSection from "./HOME1/ServicesSection.jsx";
-import DoctorsSection from "./HOME1/DoctorsSection.jsx";
-import Footer from "./HOME1/Footer.jsx";
+import MainVisual from "./home/MainVisual.jsx";
+import InfoSection from "./home/InfoSection.jsx";
+import AboutSection from "./home/AboutSection.jsx";
+import ServicesSection from "./home/ServicesSection.jsx";
+import DoctorsSection from "./home/DoctorsSection.jsx";
+import Footer from "./home/Footer.jsx";
 
 function Home() {
   return (
