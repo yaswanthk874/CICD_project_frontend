@@ -12,21 +12,19 @@ RUN git clone https://github.com/yaswanthk874/CICD_project_frontend.git .
 RUN npm install
 RUN npm run build
 
-# --- CORRECTION STARTS HERE ---
-
 # Step 2: Runtime stage (Nginx to serve build)
 FROM nginx:alpine
 # Remove default Nginx config
 RUN rm /etc/nginx/conf.d/default.conf
 
-# Copy a simple Nginx config to serve the React app
+# Copy the corrected Nginx config
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Copy built React output to Nginx's web root
 COPY --from=build-stage /app/dist /usr/share/nginx/html
 
-# Nginx listens on port 80 by default
-EXPOSE 8086
+# EXPOSE port 80 to align with docker-compose.yml mapping ("8065:80")
+EXPOSE 80
 
 # Command to start Nginx
 CMD ["nginx", "-g", "daemon off;"]
