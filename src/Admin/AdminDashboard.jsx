@@ -16,7 +16,7 @@ const AdminDashboard = () => {
   const fetchUsers = async () => {
     try {
       setLoading(true);
-      const response = await axios.get('http://localhost:8091/api/users/all');
+      const response = await axios.get('http://localhost:8085/api/users/all');
       setUsers(response.data);
     } catch (err) {
       console.error('Error fetching users:', err);
@@ -29,7 +29,7 @@ const AdminDashboard = () => {
   // Delete a user
   const deleteUser = async (userId) => {
     try {
-      const response = await axios.delete(`http://localhost:8091/api/users/${userId}`);
+      const response = await axios.delete(`http://localhost:8085/api/users/${userId}`);
       if (response.status === 200) {
         setUsers((prevUsers) => prevUsers.filter((user) => user.id !== userId));
       }
